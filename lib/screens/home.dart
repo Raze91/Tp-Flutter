@@ -29,7 +29,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: list[index],
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: index,
-        showSelectedLabels: false,
+        showSelectedLabels: true,
         showUnselectedLabels: false,
         onTap: (int i) {
           setState(() {
